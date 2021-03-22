@@ -24,12 +24,11 @@ public class CustomFunctions {
 
 	@Keyword
 	def demofunc() {
-		print("/n.. Demo_Keyword ..")
+		print "/n.. Demo_Keyword .."
 	}
 
 	@Keyword
 	def demofunc2(String name) {
 		print("/n.. Hello"+name)
 	}
-
 }
